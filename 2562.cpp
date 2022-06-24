@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <algorithm>
 
 using namespace std;
@@ -19,4 +19,4 @@ int main(void)
     cout << arr[max] << '\n' << max+1;
     return 0;
     
-}
+}*/
