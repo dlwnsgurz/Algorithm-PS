@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <list>
 using namespace std;
 
@@ -30,4 +30,4 @@ int main(void)
     }
     cout << '>';
     return 0;
-}
+}*/
