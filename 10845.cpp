@@ -1,8 +1,66 @@
+//#include <iostream>
+//#include <queue>
 //
-//  10845.cpp
-//  Baekjoon
+//using namespace std;
 //
-//  Created by LEE on 2022/06/28.
-//
-
-#include "10845.hpp"
+//int main(void)
+//{
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    int n; cin >> n;
+//    queue<int> q;
+//    while(n--)
+//    {
+//        string str; cin >> str;
+//        if(str=="push")
+//        {
+//            int x; cin >> x;
+//            q.push(x);
+//        }
+//        else if(str == "pop")
+//        {
+//            if(q.empty())
+//            {
+//                cout << -1 << '\n';
+//            }
+//            else
+//            {
+//                cout << q.front() << '\n';
+//                q.pop();
+//            }
+//        }
+//        else if(str == "size")
+//        {
+//            cout << q.size() << '\n';
+//        }
+//        else if(str == "front")
+//        {
+//            if(q.empty())
+//            {
+//                cout << -1 << '\n';
+//            }
+//            else
+//            {
+//                cout << q.front() << '\n';
+//            }
+//        }
+//        else if(str == "back")
+//        {
+//            if(q.empty())
+//            {
+//                cout << -1 << '\n';
+//            }
+//            else
+//            {
+//                cout << q.back() << '\n';
+//            }
+//        }
+//        else
+//        {
+//            if(q.empty())
+//                cout << 1 << '\n';
+//            else
+//                cout << 0 << '\n';
+//        }
+//    }
+//}
