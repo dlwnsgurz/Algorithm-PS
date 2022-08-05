@@ -1,8 +1,8 @@
 //
-//  2715.cpp
+//  11728.cpp
 //  Baekjoon
 //
 //  Created by LEE on 2022/08/05.
 //
 
-#include "2715.hpp"
+#include "11728.hpp"
