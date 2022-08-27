@@ -93,6 +93,7 @@
 		9BD28506289FE01D003402F8 /* 1181.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD28504289FE01D003402F8 /* 1181.cpp */; };
 		9BD28509289FED3A003402F8 /* 2910.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD28507289FED3A003402F8 /* 2910.cpp */; };
 		9BDEFD1928BA3EA500CAB279 /* 1003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEFD1828BA3EA500CAB279 /* 1003.cpp */; };
+		9BDEFD1B28BA3EE800CAB279 /* 1932.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEFD1A28BA3EE800CAB279 /* 1932.cpp */; };
 		9BEB781E2865D89D00877CB5 /* 2577.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB781C2865D89D00877CB5 /* 2577.cpp */; };
 		9BEB78212865DF0300877CB5 /* 1475.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB781F2865DF0300877CB5 /* 1475.cpp */; };
 		9BEB78242865E87300877CB5 /* 3273.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB78222865E87300877CB5 /* 3273.cpp */; };
@@ -199,6 +200,7 @@
 		9BD28504289FE01D003402F8 /* 1181.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1181.cpp; sourceTree = "<group>"; };
 		9BD28507289FED3A003402F8 /* 2910.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2910.cpp; sourceTree = "<group>"; };
 		9BDEFD1828BA3EA500CAB279 /* 1003.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1003.cpp; sourceTree = "<group>"; };
+		9BDEFD1A28BA3EE800CAB279 /* 1932.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1932.cpp; sourceTree = "<group>"; };
 		9BEB781C2865D89D00877CB5 /* 2577.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2577.cpp; sourceTree = "<group>"; };
 		9BEB781F2865DF0300877CB5 /* 1475.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1475.cpp; sourceTree = "<group>"; };
 		9BEB78222865E87300877CB5 /* 3273.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3273.cpp; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 				9B82BA7F2870647100984BBB /* 7576.cpp */,
 				9BD28507289FED3A003402F8 /* 2910.cpp */,
 				9B5C08C9289D4B3F00C2B1E8 /* 11728.cpp */,
+				9BDEFD1A28BA3EE800CAB279 /* 1932.cpp */,
 				9B27CC2C28BA326700F55ABF /* 9095.cpp */,
 				9B27CC2928BA324900F55ABF /* 1463.cpp */,
 				9B5FF0A128799CD600821CB9 /* 17478.cpp */,
@@ -429,6 +432,7 @@
 				9B81FB36286B0C0200C4981E /* 10845.cpp in Sources */,
 				9B834CF42863481B00DF4C87 /* 2490.cpp in Sources */,
 				9B2D8AA52865FFAE00963AB1 /* 13300.cpp in Sources */,
+				9BDEFD1B28BA3EE800CAB279 /* 1932.cpp in Sources */,
 				9B81FB39286B108C00C4981E /* 18258.cpp in Sources */,
 				9BAFAA472875B264000F01C4 /* 6593.cpp in Sources */,
 				9BAFAA382874716C000F01C4 /* 5427.cpp in Sources */,
