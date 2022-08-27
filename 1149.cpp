@@ -1,8 +1,29 @@
+//#include <iostream>
+//using namespace std;
 //
-//  1149.cpp
-//  Baekjoon
+//int dp[1000][4];
+//int color[1000][4];
+//int n;
 //
-//  Created by LEE on 2022/08/27.
-//
-
-#include "1149.hpp"
+//int main(void)
+//{
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    cin >> n;
+//    for(int i = 1;i<=n;i++)
+//    {
+//        for(int j = 1;j<=3;j++)
+//            cin >> color[i][j];
+//    }
+//    dp[1][1] = color[1][1];
+//    dp[1][2] = color[1][2];
+//    dp[1][3] = color[1][3];
+//    for(int i = 2;i<=n;i++)
+//    {
+//        dp[i][1] = min(dp[i-1][2],dp[i-1][3]) + color[i][1];
+//        dp[i][2] = min(dp[i-1][1],dp[i-1][3]) + color[i][2];
+//        dp[i][3] = min(dp[i-1][1],dp[i-1][2]) + color[i][3];
+//    }
+//    int temp = min(dp[n][1],dp[n][2]);
+//    cout << min(temp,dp[n][3]);
+//}

@@ -1,8 +1,19 @@
+//#include <iostream>
+//using namespace std;
 //
-//  1463.cpp
-//  Baekjoon
+//int n;
+//int dp[1000000];
 //
-//  Created by LEE on 2022/08/27.
-//
-
-#include "1463.hpp"
+//int main(void)
+//{
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    cin >> n;
+//    for(int i = 2;i<=n;i++)
+//    {
+//        dp[i] = dp[i-1] + 1;
+//        if(i % 2 ==0) dp[i] = min(dp[i],dp[i/2] + 1);
+//        if(i % 3 ==0) dp[i] = min(dp[i],dp[i/3] + 1);
+//    }
+//    cout << dp[n];
+//}

@@ -1,8 +1,24 @@
+//#include <iostream>
+//using namespace std;
 //
-//  11659.cpp
-//  Baekjoon
+//int n,m;
+//int arr[100004];
+//int dp[100004];
 //
-//  Created by LEE on 2022/08/27.
-//
-
-#include "11659.hpp"
+//int main(void)
+//{
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    cin >> n >> m;
+//    for(int i = 1;i<=n;i++)
+//    {
+//        cin >> arr[i];
+//        dp[i] = dp[i-1] + arr[i];
+//    }
+//    while(m--)
+//    {
+//        int i,j;
+//        cin >> i >> j;
+//        cout << dp[j] - dp[i-1] << '\n';
+//    }
+//}

@@ -1,8 +1,25 @@
+//#include <iostream>
+//using namespace std;
 //
-//  9095.cpp
-//  Baekjoon
+//int n,t;
+//int dp[11];
 //
-//  Created by LEE on 2022/08/27.
-//
-
-#include "9095.hpp"
+//int main(void)
+//{
+//    ios::sync_with_stdio(0);
+//    cin.tie(0);
+//    dp[1] = 1;
+//    dp[2] = 2;
+//    dp[3] = 4;
+//    cin >> t;
+//    while(t--)
+//    {
+//       cin >> n;
+//       for(int i = 4;i<=n;i++)
+//       {
+//           dp[i] = dp[i-1] + dp[i-2] + dp[i-3];
+//       }
+//       cout << dp[n] << '\n';
+//    }
+//    
+//}

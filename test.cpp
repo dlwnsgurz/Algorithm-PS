@@ -1,79 +1,21 @@
 //#include <iostream>
-//#include <string>
-//#include <stack>
 //using namespace std;
 //
+//long long dp[91][2];
+//int n;
 //int main(void)
 //{
 //    ios::sync_with_stdio(0);
 //    cin.tie(0);
-//    while(1)
+//    cin >> n;
+//    dp[1][0] = 2;
+//    dp[2][0] = 3;
+//    dp[1][1] = 1;
+//    dp[2][1] = 1;
+//    for(int i = 3;i<=n;i++)
 //    {
-//        bool isyes = true;
-//        stack<char> s;
-//        string str; getline(cin,str);
-//        if(str == ".")
-//            return 0;
-//            for(char c : str)
-//            {
-//                if(c == '(')
-//                    s.push(c);
-//                else if(c == '[')
-//                    s.push(c);
-//                else if(c== ')')
-//                {
-//                    if(s.empty())
-//                    {
-//                        cout << "no" << '\n';
-//                        isyes = false;
-//                        break;
-//                    }
-//                    if(s.top() != '(')
-//                    {
-//                        cout << "no" << '\n';
-//                        isyes = false;
-//                        break;
-//                    }
-//                    else
-//                    {
-//                        s.pop();
-//                    }
-//                }
-//                else if(c == ']')
-//                {
-//                    if(s.empty())
-//                    {
-//                        cout << "no" << '\n';
-//                        isyes = false;
-//                        break;
-//                    }
-//                    if(s.top() != '[')
-//                    {
-//                        cout << "no" << '\n';
-//                        isyes = false;
-//                        break;
-//                    }
-//                    else
-//                    {
-//                        s.pop();
-//                    }
-//                }
-//                else if(c == '.')
-//                {
-//                    if(!s.empty())
-//                    {
-//                        cout << "no" << '\n';
-//                        isyes = false;
-//                        break;
-//                    }
-//                }
-//            }
-//        if(isyes)
-//        {
-//           if(s.empty())
-//              cout << "yes" << '\n';
-//        }
-//        
+//        dp[i][0] = dp[i-1][0] + dp[i-2][0];
+//        dp[i][1] = dp[i-2][0];
 //    }
-//    return 0;
+//    cout << dp[n][1];
 //}
